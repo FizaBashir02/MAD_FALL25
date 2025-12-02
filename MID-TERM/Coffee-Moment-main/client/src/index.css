@@ -1,0 +1,93 @@
+@import "tailwindcss";
+
+button {
+  cursor: pointer;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+@keyframes scaleIn {
+  from {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+@keyframes scaleOut {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+}
+
+/* Scrollbar Cafe Theme - WebKit Browsers */
+::-webkit-scrollbar {
+  width: 14px;
+  height: 14px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(90deg, #f5f0e6 0%, #e6d9c8 50%, #f5f0e6 100%);
+  border-radius: 12px;
+  border: 1px solid #d4c9b8;
+  box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(135deg, #6f4e37 0%, #a38b6d 50%, #c9b18b 100%);
+  border-radius: 12px;
+  border: 3px solid #f5f0e6;
+  box-shadow: inset 0 0 3px rgba(255, 255, 255, 0.3), 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(135deg, #5c3d2a 0%, #8a7456 50%, #b39a71 100%);
+}
+
+::-webkit-scrollbar-corner {
+  background: #f5f0e6;
+}
+
+/* Scrollbar Cafe Theme - Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #a38b6d #f5f0e6;
+}
+
+/* Dark Mode Cafe Theme */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: linear-gradient(90deg, #2a2118 0%, #3a2e20 50%, #2a2118 100%);
+    border-color: #4a3c2a;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: linear-gradient(135deg, #8b5a2b 0%, #d4a373 50%, #f5d5a6 100%);
+    border-color: #2a2118;
+  }
+
+  * {
+    scrollbar-color: #d4a373 #3a2e20;
+  }
+}
