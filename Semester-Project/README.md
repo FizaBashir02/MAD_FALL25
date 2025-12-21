@@ -106,16 +106,3 @@ React Native | JavaScript | MongoDB
 
 ⭐ Support
 If you like this project, please give it a ⭐ on GitHub — it really helps!
-
-
-
----
-
-# ✅ Next Steps (Optional)
-If you want, I can:
-- Add **animated badges & GitHub stats**
-- Optimize it for **portfolio website**
-- Make a **shorter README for assignments**
-- Customize it according to **teacher requirements**
-
-Just tell me 😊
