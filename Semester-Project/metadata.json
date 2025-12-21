@@ -1,0 +1,7 @@
+{
+  "name": "HostelManager",
+  "description": "A comprehensive hostel management system for administrators, staff, and students. Features include room allocation, mess management with pre-ordering, complaint tracking, and AI-powered insights.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}

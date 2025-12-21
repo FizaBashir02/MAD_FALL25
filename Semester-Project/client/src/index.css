@@ -1,0 +1,77 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: #f8fafc; /* Slate 50 */
+    --bg-secondary: #ffffff;
+    --text-primary: #0f172a; /* Slate 900 */
+    --text-secondary: #64748b; /* Slate 500 */
+    --border-color: #e2e8f0; /* Slate 200 */
+  }
+
+  .dark {
+    --bg-primary: #020617; /* Slate 950 */
+    --bg-secondary: rgba(255, 255, 255, 0.03);
+    --text-primary: #f8fafc; /* Slate 50 */
+    --text-secondary: #94a3b8; /* Slate 400 */
+    --border-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: 'Outfit', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: transparent; 
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1; 
+  border-radius: 4px;
+}
+.dark ::-webkit-scrollbar-thumb {
+  background: #334155; 
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8; 
+}
+.dark ::-webkit-scrollbar-thumb:hover {
+  background: #475569; 
+}
+
+/* Hide scrollbar for clean horizontal scrolling on mobile */
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+.no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+/* Glassmorphism Utility */
+.glass-panel {
+  background: var(--bg-secondary);
+  @apply backdrop-blur-md border border-[var(--border-color)];
+}
+
+/* Form inputs override */
+input, select, textarea {
+  @apply bg-white dark:bg-slate-800/50 border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-white transition-colors !important;
+}
+
+input:focus, select:focus, textarea:focus {
+  @apply border-teal-500 ring-1 ring-teal-500 outline-none !important;
+}
