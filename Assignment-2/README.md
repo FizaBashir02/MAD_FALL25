@@ -54,5 +54,5 @@ After this you can run the project locally:
 - [Mongoose](https://mongoosejs.com)
 - [Material UI](https://mui.com/)
 
-# Youtube Demo Lnk
+# Youtube Demo Link
   https://youtu.be/AWXmWHyVAJ8?si=KRGB854rs7FwQepH
