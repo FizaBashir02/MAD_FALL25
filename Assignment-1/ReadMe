@@ -1,59 +1,55 @@
-# 🤝 Skill Swap App (Frontend)
+🤝✨ **SKILL SWAP APP – FRONTEND**
 
-A modern **Skill Swap mobile application frontend** built using **React Native** on **Expo Snack**.  
-This app allows users to exchange skills by connecting learners and mentors in a simple and interactive way.
+────────────────────────────────────
 
----
+📱 **PROJECT DESCRIPTION**
 
-## 📱 Project Overview
+The **Skill Swap App** is a mobile application frontend built using **React Native** and deployed on **Expo Snack**.  
+The main idea of this app is to allow users to **exchange skills** with others instead of paying money.  
+Users can showcase what they know and learn new skills from the community.
 
-The **Skill Swap App** is designed to help users:
-- Share their skills
-- Learn new skills from others
-- Connect with people based on interests
-- Swap skills instead of paying money
+This repository contains the **frontend implementation only**.
 
-This repository contains **frontend-only implementation**.
+────────────────────────────────────
 
----
+🚀 **KEY FEATURES**
 
-## 🚀 Features
+✔ Clean and modern user interface  
+✔ Skill listing and browsing  
+✔ Add and view skills  
+✔ Simple navigation flow  
+✔ Mobile-first responsive design  
+✔ Runs directly on Expo Snack  
 
-- 📌 User-friendly UI
-- 📌 Skill listing and browsing
-- 📌 Add and view skills
-- 📌 Clean navigation
-- 📌 Mobile-first design
-- 📌 Runs directly on Expo Snack
+────────────────────────────────────
 
----
+🛠️ **TECHNOLOGIES USED**
 
-## 🛠️ Technologies Used
+• React Native  
+• Expo Snack  
+• JavaScript  
+• React Navigation  
+• Expo UI Components  
 
-- **React Native**
-- **Expo Snack**
-- **JavaScript**
-- **React Navigation**
-- **Expo Components**
+────────────────────────────────────
 
----
+▶️ **HOW TO RUN THE PROJECT**
 
-## ▶️ How to Run the App
+📌 **Using Expo Snack**
 
-### Run on Expo Snack
 1. Open **Expo Snack** in your browser  
 2. Upload or paste the project code  
-3. Click **Run**
-4. Scan QR code using **Expo Go App**
+3. Click **Run**  
+4. Scan the QR code using **Expo Go App**  
 
-🔗 Expo Snack Link:  
-👉 _Add your Snack link here_
+🔗 **Expo Snack Link**  
+👉 _Paste your Expo Snack link here_
 
----
+────────────────────────────────────
 
-## 🎥 Project Demo (YouTube)
+🎥 **PROJECT DEMO (YOUTUBE)**
 
 Watch the complete working demo of the Skill Swap App:
 
-🔗 **YouTube Demo Video:**  
+🔗 **YouTube Video Link**  
 👉 https://youtu.be/ZTK92hFXszQ?si=-8E1HilcMigbPIac
