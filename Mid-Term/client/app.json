@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Coffee Moment",
+    "slug": "client",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "extra": {
+      "eas": {
+        "projectId": "83da5f6c-70ae-40ca-88f9-bf0b1fb842b1"
+      },
+      "API_BASE_URL": "http://192.168.100.32:5000"
+    },
+    "android": {
+      "package": "com.fizakhan.client"
+    }
+  }
+}
