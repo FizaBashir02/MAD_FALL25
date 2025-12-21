@@ -1,1 +1,59 @@
-https://youtu.be/ZTK92hFXszQ?si=-8E1HilcMigbPIac
+# 🤝 Skill Swap App (Frontend)
+
+A modern **Skill Swap mobile application frontend** built using **React Native** on **Expo Snack**.  
+This app allows users to exchange skills by connecting learners and mentors in a simple and interactive way.
+
+---
+
+## 📱 Project Overview
+
+The **Skill Swap App** is designed to help users:
+- Share their skills
+- Learn new skills from others
+- Connect with people based on interests
+- Swap skills instead of paying money
+
+This repository contains **frontend-only implementation**.
+
+---
+
+## 🚀 Features
+
+- 📌 User-friendly UI
+- 📌 Skill listing and browsing
+- 📌 Add and view skills
+- 📌 Clean navigation
+- 📌 Mobile-first design
+- 📌 Runs directly on Expo Snack
+
+---
+
+## 🛠️ Technologies Used
+
+- **React Native**
+- **Expo Snack**
+- **JavaScript**
+- **React Navigation**
+- **Expo Components**
+
+---
+
+## ▶️ How to Run the App
+
+### Run on Expo Snack
+1. Open **Expo Snack** in your browser  
+2. Upload or paste the project code  
+3. Click **Run**
+4. Scan QR code using **Expo Go App**
+
+🔗 Expo Snack Link:  
+👉 _Add your Snack link here_
+
+---
+
+## 🎥 Project Demo (YouTube)
+
+Watch the complete working demo of the Skill Swap App:
+
+🔗 **YouTube Demo Video:**  
+👉 https://youtu.be/ZTK92hFXszQ?si=-8E1HilcMigbPIac
